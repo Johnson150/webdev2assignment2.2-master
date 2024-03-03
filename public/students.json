@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "first name": "Johnson",
+        "last name": "Giang", 
+        "date of birth": "February 21st, 2001",
+        "grade": "A"
+
+
+    },
+    {
+        "id": 2,
+        "first name": "Danrel",
+        "last name": "Lu",
+        "date of birth": "February 8th, 2001", 
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "first name": "Navkirat",
+        "last name": "Puri",
+        "date of birth": "November 12th, 2001", 
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "first name": "Navkirat",
+        "last name": "Puri",
+        "date of birth": "November 12th, 2001", 
+        "grade": "A"
+    },
+    {
+        "id": 4,
+        "first name": "Isaac",
+        "last name": "Marfo",
+        "date of birth": "December 17th, 2001", 
+        "grade": "A"
+    },
+    {
+        "id": 5, 
+        "first name": "Zain",
+        "last name": "Naeem",
+        "date of birth": "August 11th, 2001", 
+        "grade": "F"
+    }
+
+
+
+
+]
