@@ -1,0 +1,30 @@
+{
+    "firstName": [
+        "Johnson",
+        "Danrel",
+        "Navkirat",
+        "Isaac",
+        "Zain"
+    ],
+    "lastName": [
+        "Giang",
+        "Lu",
+        "Puri",
+        "Marfo",
+        "Naeem"
+    ],
+    "dateOfBirth": [
+        "January 1, 2000",
+        "Febuary 2, 2001",
+        "March 3, 2002",
+        "April 4, 2003",
+        "May 5, 2004"
+    ],
+    "grade": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F"
+    ]
+}
