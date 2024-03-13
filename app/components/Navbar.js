@@ -5,7 +5,7 @@ const Navbar = () => (
     <div>New Generation High School</div>
     <div>
       <button class="bg-white text-blue-500 hover:bg-blue-100 text-sm font-semibold py-2 px-4 mr-2 rounded">
-        <a href="addPage.js">Add new student</a>
+        Add new student
         
       </button>
       <button class="bg-white text-blue-500 hover:bg-blue-100 text-sm font-semibold py-2 px-4 rounded">
