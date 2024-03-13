@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar'; // Importing the Navbar component.
 import Footer from './components/Footer'; // Importing the Footer component.
 import StudentList from './components/StudentList'; // Importing the StudentList component.
-import StudentStartup from './components/studentStartup'; // Importing the StudentStartup component.
+import StudentStartup from './components/StudentStartup'; // Importing the StudentStartup component.
 import AddNewStudent from './components/AddNewStudent'; // Importing the AddNewStudent component.
 
 // Define the Home component as the default export of this file.
