@@ -1,5 +1,10 @@
+"use client";
+
 import React from 'react';
-import data from './students.json';
+import Head from 'next/head';
+import data from '../public/students.json';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const studentList = () => {
   const { firstName, lastName, dateOfBirth, grade } = data;
@@ -13,12 +18,21 @@ const studentList = () => {
 };
 
 export default function Home() {
+
+  
+
   const students = studentList(); // Call the function to get the list of students
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-      <h1 className="p-24 bg-blue-100">Students</h1>
+        
+    <main> 
+      
+      <Head>
+        <title>Students</title>
+      </Head>
+
+      <Navbar />
 
       <div>
       <h1>List of Students</h1>
@@ -35,9 +49,7 @@ export default function Home() {
       </ul>
     </div>
 
-      <footer className="p-24 bg-red-300">
-        <p>School Info</p>
-      </footer>
+      <Footer />
 
     </main>
     
