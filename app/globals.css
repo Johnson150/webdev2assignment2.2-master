@@ -40,3 +40,4 @@ footer {
   margin-top: auto;
 }
 
+// This CSS code snippet sets up the styling environment for a web application using Tailwind CSS. It includes Tailwind directives for base, components, and utilities, followed by custom CSS variables, media queries for dark mode, and styling rules for the HTML body, a custom utility class, and the footer element. Additionally, it ensures that the HTML element occupies the full height of the viewport and the body is set up as a flex container with a column direction, allowing for a flexible layout with a footer pinned to the bottom of the viewport.
