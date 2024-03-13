@@ -1,7 +1,7 @@
 "use client";
 
 const Footer = () => (
-  <footer class="bg-gray-200 py-4">
+  <footer class="bg-gray-200 py-4 static bottom-0">
     <div class="container mx-auto text-center">
 
       <p class="text-sm text-gray-600">New Generation High School</p>
@@ -10,7 +10,7 @@ const Footer = () => (
 
       <p class="text-xs text-gray-600 mt-1">Phone: (123) 456-7890 | Email: info@newgenhigh.edu</p>
       
-      <p class="text-xs text-gray-600 mt-1">&copy; 2024 New Generation High School. All rights reserved.</p>
+      <p class="text-xs text-gray-600 mt-1">2024 New Generation High School. All rights reserved.</p>
       
     </div>
 </footer>
