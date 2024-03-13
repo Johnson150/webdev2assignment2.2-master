@@ -6,7 +6,7 @@ const StudentStartup = () => {
 
     return (
         <div className="text-center">
-            <h1 className="text-xl">List of Students</h1>
+            <h1 className="text-xl underline">List of Students</h1>
             <ul>
                 {students.map((student, index) => (
                     <li key={index}>
