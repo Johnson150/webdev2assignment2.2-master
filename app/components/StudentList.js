@@ -15,7 +15,7 @@ const StudentList = ({ students }) => {
           <li key={`${student.firstName}-${student.lastName}`}>
             {/* Display student's first and last name with a strong emphasis on 'First Name' label */}
             <div>
-              <strong>First Name:</strong> {student.firstName} {student.lastName}
+              <strong>Name:</strong> {student.firstName} {student.lastName}
             </div>
             {/* Display student's date of birth with a strong emphasis on 'Date of Birth' label */}
             <div><strong>Date of Birth:</strong> {student.dateOfBirth}</div>
