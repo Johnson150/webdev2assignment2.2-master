@@ -1,26 +1,18 @@
 import React from 'react';
-import data from './students.json';
+import data from '../public/students.json';
 
-const studentList = () => {
+const StudentList = () => {
   const { firstName, lastName, dateOfBirth, grade } = data;
 
-  return firstName.map((firstName, index) => ({
+  const students = firstName.map((firstName, index) => ({
     firstName,
     lastName: lastName[index],
     dateOfBirth: dateOfBirth[index],
     grade: grade[index]
   }));
-};
-
-export default function Home() {
-  const students = studentList(); // Call the function to get the list of students
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-      <h1 className="p-24 bg-blue-100">Students</h1>
-
-      <div>
+    <div>
       <h1>List of Students</h1>
       <ul>
         {students.map(student => (
@@ -34,11 +26,7 @@ export default function Home() {
         ))}
       </ul>
     </div>
-
-      <footer className="p-24 bg-red-300">
-        <p>School Info</p>
-      </footer>
-
-    </main>
   );
-}
+};
+
+export default StudentList;
