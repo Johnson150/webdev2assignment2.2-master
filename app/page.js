@@ -1,6 +1,8 @@
 "use client"
 import React, { useState } from 'react';
 import studentsData from './students.json';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const studentList = () => {
   const students = studentsData.students;
@@ -42,11 +44,11 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="p-24 bg-blue-100">Students</h1>
+    <main class="flex flex-col h-screen justify-between"> 
+      <Navbar />
       
-      <div>
-        <h1>List of Students</h1>
+      <div class="text-center">
+        <h1 class="text-xl">List of Students</h1>
         <ul>
           {students.map(student => (
             <li key={`${student.firstName}-${student.lastName}`}>
@@ -60,9 +62,9 @@ export default function Home() {
         </ul>
       </div>
       
-      <div>
-        <h2>Add New Student</h2>
-        <form className='flex min-h-screen flex-col items-center justify-between p-24 bg-blue-200' onSubmit={addStudent}>
+      <div >
+        <h2 class="text-center text-xl my-4">Add New Student</h2>
+        <form className='flex min-h-screen flex-col items-center justify-between pt-2 bg-blue-200' onSubmit={addStudent}>
           <label>
             First Name:
             <input type="text" name="firstName" value={newStudent.firstName} onChange={handleInputChange} />
@@ -79,13 +81,11 @@ export default function Home() {
             Grade:
             <input type="text" name="grade" value={newStudent.grade} onChange={handleInputChange} />
           </label>
-          <button className = "bg-green-200" type="submit">Add Student</button>
+          <button className = "bg-green-200 mb-2" type="submit">Add Student</button>
         </form>
       </div>
+      <Footer />
       
-      <footer className="p-24 bg-red-300">
-        <p>School Info</p>
-      </footer>
     </main>
   );
 }
