@@ -1,0 +1,34 @@
+{
+  "students": [ // An array named "students" holding a list of student objects.
+    {
+      "firstName": "Johnson", // The first name of the student.
+      "lastName": "Giang", // The last name of the student.
+      "dateOfBirth": "January 1, 2000", // The student's date of birth.
+      "grade": "A" // The grade achieved by the student.
+    },
+    {
+      "firstName": "Danrel", // The first name of another student.
+      "lastName": "Lu", // The last name of this student.
+      "dateOfBirth": "January 2, 2001", // The date of birth of this student.
+      "grade": "B" // The grade achieved by this student.
+    },
+    {
+      "firstName": "Nav", // Starts another student entry with the student's first name.
+      "lastName": "Puri", // This student's last name.
+      "dateOfBirth": "January 3, 2002", // The student's date of birth.
+      "grade": "C" // The grade achieved by the student.
+    },
+    {
+      "firstName": "Isaac", // The first name of the student.
+      "lastName": "Marfo", // The last name of the student.
+      "dateOfBirth": "January 4, 2003", // The student's date of birth.
+      "grade": "D" // The grade achieved by the student, indicating their performance.
+    },
+    {
+      "firstName": "Zain", // The first name of the student.
+      "lastName": "Naeem", // The last name of the student.
+      "dateOfBirth": "January 5, 2004", // The student's date of birth, indicating the youngest student in this list.
+      "grade": "F" // The grade achieved by the student, indicating a failing grade.
+    }
+  ]      
+}
