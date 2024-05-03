@@ -22,7 +22,6 @@ export default function Home() {
   // The component renders the Navbar, StudentStartup, StudentList, AddNewStudent form, and Footer.
   return (
     <main>
-      <Navbar /> {/* Render the Navbar component. */}
       <StudentStartup /> {/* Render the StudentStartup component. */}
       <StudentList students={students} /> {/* Render the StudentList component, passing 'students' as a prop. */}
       <AddNewStudent addStudent={addStudent} /> {/* Render the AddNewStudent component, passing 'addStudent' as a prop. */}
